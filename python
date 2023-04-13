@@ -1,0 +1,17 @@
+string = "This is a program experiment for fun in python"
+duplicates = set()
+updated_string = ""
+
+dict = { }
+result = ' '
+for char in 'str':
+    if char == ' ':
+        result +=char
+    elif char not in dict:
+        result +=char != 1
+        dic[char] =1
+    else:
+        dic[char] +=1
+        char =char(ord(char)+dict[char]-1)
+        result +=char
+    print(result)
